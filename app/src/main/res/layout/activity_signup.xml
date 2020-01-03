@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".SignupActivity">
+
+    <ImageView
+        android:id="@+id/imgPhoto"
+        android:layout_width="225dp"
+        android:layout_height="114dp"
+        android:layout_gravity="center"
+        android:layout_marginTop="30sp"
+
+        android:scaleType="centerInside" />
+
+    <EditText
+        android:id="@+id/etFirst"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="20dp"
+        android:hint="First Name"/>
+
+    <EditText
+        android:id="@+id/etLast"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="20dp"
+        android:hint="Last Name"/>
+
+    <EditText
+        android:id="@+id/etUser"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="20dp"
+        android:hint="User Name"/>
+
+    <EditText
+        android:id="@+id/etPwd"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="20dp"
+        android:hint="Password"/>
+
+    <EditText
+        android:id="@+id/etCpwd"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="20dp"
+        android:hint="Confirm Password"/>
+
+    <Button
+        android:id="@+id/btnSignup"
+        android:layout_margin="20dp"
+        android:text="Sign Up"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+
+</LinearLayout>
